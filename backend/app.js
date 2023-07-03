@@ -8,7 +8,7 @@ const path = require("path");
 
 app.use(
   cors({
-    origin: "https://ecommerce-cell.vercel.app/",
+    origin: "https://ecommerce-cell.vercel.app",
     credentials: true,
   })
 );
