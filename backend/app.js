@@ -8,12 +8,12 @@ const path = require("path");
 
 app.use(
   cors({
-    origin:"https://ecommerce-3ir5.vercel.app",
-      credentials: true,
+    origin: "https://ecommerce-ten-orpin-33.vercel.app",
+    credentials: true,
   })
 );
 
-app.use(express.json());
+app.use(express.json());  
 app.use(cookieParser());
 app.use("/", express.static(path.join(__dirname, "./uploads")));
 app.use("/test", (req, res) => {
