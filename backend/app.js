@@ -8,7 +8,7 @@ const path = require("path");
 
 app.use(
   cors({
-    origin: "https://ecommerce-ten-orpin-33.vercel.app",
+    origin: "http://localhost:3000",
     credentials: true,
   })
 );
